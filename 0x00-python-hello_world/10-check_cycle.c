@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/**
+ * check_cycle - check for the cycle in the linked list
+ * @list: pointer to list to check
+ * Return: 1 if cycle, 0  otherwise
+ */
+
 int check_cycle(listint_t *list)
 {
 	listint_t *slow = list;
@@ -14,9 +20,9 @@ int check_cycle(listint_t *list)
 
 		if (slow == fast)
 		{
-			return 1; // Cycle detected
+			return (1);
 		}
 	}
 
-	return 0; // No cycle
+	return (0);
 }
