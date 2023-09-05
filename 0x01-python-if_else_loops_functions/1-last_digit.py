@@ -9,7 +9,7 @@ def formatResult(number):
         lastDigit = (number % -10)
     else:
         lastDigit = (number % 10)
-    
+
     if lastDigit > 5:
         return lastDigit, "greater than 5"
     if lastDigit == 0:
