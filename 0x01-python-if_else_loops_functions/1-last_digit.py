@@ -6,7 +6,9 @@ number = random.randint(-10000, 10000)
 def formatResult(number):
     lastDigit = number % 10
     if number < 0:
-        lastDigit = lastDigit * (-1)
+        lastDigit = (number % -10)
+    else:
+        lastDigit = (number % 10)
     
     if lastDigit > 5:
         return lastDigit, "greater than 5"
