@@ -8,10 +8,9 @@ def islower(c):
 
 def uppercase(s):
     for char in s:
-        if ord(char) >= ord("a") and ord(char) <= ord("z"):
-            print("{:c}"
-                  .format(ord(char) if not islower(char) else ord(char) - 32),
-                  end="")
+        print("{:c}"
+              .format(ord(char) if not islower(char) else ord(char) - 32),
+              end="")
 
 
-print()
+print("")
