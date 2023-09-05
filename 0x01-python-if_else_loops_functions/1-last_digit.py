@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 
 
 def formatResult(number):
-    lastDigit = int(str(number)[-1])
+    lastDigit = number % 10
     if number < 0:
         lastDigit = lastDigit * (-1)
     
