@@ -12,7 +12,5 @@ def uppercase(s):
               .format(ord(char) if not islower(char) else ord(char) - 32),
               end="")
 
-uppercase("best")
-uppercase("Best School 98 Battery street")
 
 print("")
