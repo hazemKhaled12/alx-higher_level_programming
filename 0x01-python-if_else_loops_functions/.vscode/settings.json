@@ -1,5 +1,10 @@
 {
   "files.associations": {
     "*.c ": "c"
-  }
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
