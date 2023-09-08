@@ -1,0 +1,1 @@
+Data structure for python exercise readme file
